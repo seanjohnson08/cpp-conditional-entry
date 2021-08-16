@@ -1,7 +1,7 @@
 #include <iostream>
 #include "addtwonumbers.h"
 
-#ifdef MAIN
+#ifndef MAIN
 int main()
 {
     std::cout << "Calling main method " << addTwoNumbers(2, 3) << std::endl;
